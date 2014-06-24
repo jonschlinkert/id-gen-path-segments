@@ -1,0 +1,45 @@
+{
+  "name": "id-gen-path-segments",
+  "description": "Generate an id from file path segments.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/id-gen-path-segments",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/id-gen-path-segments.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/id-gen-path-segments/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/id-gen-path-segments/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "file",
+    "fs",
+    "id",
+    "id-gen",
+    "path",
+    "segment",
+    "segments"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "id-gen": "^0.2.1",
+    "mocha": "*",
+    "verb": "~0.2.6"
+  }
+}
